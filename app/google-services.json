@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "719671516917",
+    "firebase_url": "https://hack-2bb73.firebaseio.com",
+    "project_id": "hack-2bb73",
+    "storage_bucket": "hack-2bb73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719671516917:android:a12d4908c700b3e549afbc",
+        "android_client_info": {
+          "package_name": "com.example.uploadinginternship"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719671516917-jcvrclcktk6uel7ttpme2ss3cp25ickf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC97nsGX169Q3W0LtNeS_kTVFfA2m2fwDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719671516917-jcvrclcktk6uel7ttpme2ss3cp25ickf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719671516917:android:14e3aa254fed745d49afbc",
+        "android_client_info": {
+          "package_name": "com.vinu.uploadingjob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719671516917-jcvrclcktk6uel7ttpme2ss3cp25ickf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC97nsGX169Q3W0LtNeS_kTVFfA2m2fwDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719671516917-jcvrclcktk6uel7ttpme2ss3cp25ickf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

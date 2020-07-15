@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">UploadingInternship</string>
+    <string name="enter_the_intern_field">Enter the Internship Field</string>
+    <string name="qualification">Qualification</string>
+    <string name="no_of_vacancies">No of Vacancies</string>
+    <string name="upload_intern">Upload Internship</string>
+    <string name="last_date_to_apply">Last date to apply</string>
+    <string name="search_intern_by_field">Search Internship by field ...</string>
+    <string name="delete">Delete</string>
+    <string name="field">Field</string>
+    <string name="last_date">Last date</string>
+    <string name="person_needed">Person Needed</string>
+    <string name="uploaded_time">Uploaded Time</string>
+    <string name="send_resume_info_successr_in">Send Resume: info@successr.in</string>
+</resources>

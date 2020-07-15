@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkBackground"
+    tools:context=".uploadedinternships">
+    <EditText
+        android:id="@+id/inputSearchIntern"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/search_intern_by_field"
+        android:layout_margin="10dp"
+        android:paddingStart="20dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingEnd="10dp"
+        android:drawableEnd="@drawable/search_icon"
+        android:background="@drawable/pin_background"
+        android:fontFamily="@font/montserrat"
+        android:autofillHints="">
+    </EditText>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewIntern"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/montserrat"
+        android:layout_below="@id/inputSearchIntern"
+        android:layout_marginTop="0dp" />
+</RelativeLayout>
