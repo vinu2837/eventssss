@@ -37,6 +37,10 @@ public class MainActivity extends AppCompatActivity {
         qualification = findViewById(R.id.qualification);
         vacancy = findViewById(R.id.vacancies);
         upload_job = findViewById(R.id.upload_intern_btn);
+        String[] items = new String[]
+                {
+                        "Item 1"
+                };
         DataRef = FirebaseDatabase.getInstance().getReference().child("INTERNSHIP");
         dateup.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -10,43 +10,27 @@
     android:layout_marginStart="10dp"
     android:layout_marginEnd="10dp">
 
-    <pl.droidsonroids.gif.GifImageView
-        android:layout_marginTop="10dp"
-        android:id="@+id/gifImageView"
-        android:layout_width="407dp"
-        android:layout_height="200dp"
-        android:layout_marginStart="60dp"
-        android:src="@drawable/logo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:endIconMode="dropdown_menu"
         android:fontFamily="@font/montserrat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.332"
         tools:layout_editor_absoluteX="4dp" >
-
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/intern_field"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_notifications"
             android:fontFamily="@font/montserrat"
-            android:hint="@string/enter_the_intern_field"
+            android:hint="Enter the event Name"
             android:inputType="textPersonName" />
     </com.google.android.material.textfield.TextInputLayout>
-
     <com.google.android.material.textfield.TextInputLayout
-
         android:id="@+id/textInputLayout3"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
         android:layout_width="match_parent"
@@ -56,14 +40,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.415"
         tools:layout_editor_absoluteX="0dp">
-
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/last_date_intern"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat"
             android:drawableStart="@drawable/ic_notifications"
-            android:hint="@string/last_date_to_apply"
+            android:hint="Enter the date of event"
             android:inputType="textPersonName" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -83,11 +66,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_notifications"
-            android:hint="@string/qualification"
+            android:hint="Enter the meeting link"
             android:fontFamily="@font/montserrat"
             android:inputType="textPersonName" />
     </com.google.android.material.textfield.TextInputLayout>
-
     <com.google.android.material.textfield.TextInputLayout
 
         android:id="@+id/textInputLayout2"
@@ -105,7 +87,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_notifications"
-            android:hint="@string/no_of_vacancies"
+            android:hint="Enter the seats"
             android:fontFamily="@font/montserrat"
             android:inputType="number" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -114,7 +96,7 @@
         android:id="@+id/upload_intern_btn"
         android:layout_width="154dp"
         android:layout_height="59dp"
-        android:text="@string/upload_intern"
+        android:text="upload event details"
         android:textColor="@color/lightBackground"
         android:background="@drawable/dialog_background"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -125,6 +107,4 @@
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.723" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

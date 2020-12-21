@@ -10,7 +10,7 @@
         android:id="@+id/inputSearchIntern"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:hint="@string/search_intern_by_field"
+        android:hint="Search Event By name........."
         android:layout_margin="10dp"
         android:paddingStart="20dp"
         android:paddingTop="8dp"

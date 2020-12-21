@@ -4,7 +4,6 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
@@ -15,14 +14,12 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
-
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
-
 public class uploadedinternships extends AppCompatActivity {
     EditText inputinternsearch;
     RecyclerView recyclerView;
@@ -43,14 +40,11 @@ public class uploadedinternships extends AppCompatActivity {
         inputinternsearch.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-
             }
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-
             }
-
             @Override
             public void afterTextChanged(Editable editable) {
                 if(editable!= null)
@@ -61,7 +55,6 @@ public class uploadedinternships extends AppCompatActivity {
                 {
                     LoadData("");
                 }
-
             }
         });
     }
@@ -87,7 +80,6 @@ public class uploadedinternships extends AppCompatActivity {
                     }
                 });
             }
-
             @NonNull
             @Override
             public MyViewHolderIntern onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {

@@ -25,14 +25,14 @@ public class ViewActivityIntern extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_intern);
-        ref = FirebaseDatabase.getInstance().getReference().child("INTERNSHIP");
+        ref = FirebaseDatabase.getInstance().getReference().child("Event");
         viewfield = findViewById(R.id.field_view_activity_intern);
         viewlastdate = findViewById(R.id.lastdate_view_activity_intern);
         viewpersonneeded = findViewById(R.id.personneeded_view_activity_intern);
         viewqualification = findViewById(R.id.Qualification_view_activity_intern);
         delete_btn = findViewById(R.id.delete_view_activity_intern);
-        String InternKey = getIntent().getStringExtra("InternKey");
-        ref.child(InternKey).addValueEventListener(new ValueEventListener() {
+        String EventKey = getIntent().getStringExtra("EventKey");
+        ref.child(EventKey).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if(dataSnapshot.exists())
@@ -53,7 +53,7 @@ public class ViewActivityIntern extends AppCompatActivity {
 
             }
         });
-        DataRef = FirebaseDatabase.getInstance().getReference().child("INTERNSHIP").child(InternKey);
+        DataRef = FirebaseDatabase.getInstance().getReference().child("Event").child(EventKey);
         delete_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -65,7 +65,6 @@ public class ViewActivityIntern extends AppCompatActivity {
 
                     }
                 });
-
             }
         });
 
